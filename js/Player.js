@@ -5,6 +5,7 @@ class Player {
     this.positionX = 0
     this.positionY = 0
     this.score = 0
+    this.fuel = 185
     this.ranking = 0
   }
   getCount(){
