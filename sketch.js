@@ -8,12 +8,19 @@ var car1,car1img
 var car2,car2img
 var carros = []
 var pista
+var gasolina,gasolinaimg
+var moeda,moedaimg
+var obstaculos,coneimg,pneuimg
 
 function preload() {
   backgroundImage = loadImage("./assets/planodefundo.png");
   car1img = loadImage("assets/car1.png")
   car2img = loadImage("assets/car2.png")
   pista = loadImage("assets/PISTA.png")
+  coneimg = loadImage("assets/obstacle1.png")
+  pneuimg = loadImage("assets/obstacle2.png")
+  moedaimg = loadImage("assets/goldCoin.png")
+  gasolinaimg = loadImage("assets/fuel.png")
 }
 
 function setup() {
